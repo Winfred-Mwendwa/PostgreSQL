@@ -37,3 +37,7 @@ CREATE TABLE table_name();
 ```
 \d table_name
 ```
+## Add columns
+```
+ALTER TABLE table_name ADD COLUMN column_name DATATYPE;
+```
