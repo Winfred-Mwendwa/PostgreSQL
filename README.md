@@ -41,3 +41,19 @@ CREATE TABLE table_name();
 ```
 ALTER TABLE table_name ADD COLUMN column_name DATATYPE;
 ```
+## Remove columns
+```
+ALTER TABLE table_name DROP COLUMN column_name;
+```
+## Rename columns
+```
+ALTER TABLE table_name RENAME COLUMN column_name TO new_name;
+```
+## Insert rows into columns;row contain the actual data
+```
+INSERT INTO table_name(column_1, column_2) VALUES(value1, value2);
+```
+## View data in a table(rows) by querryng it using Select method; * to view all columns;
+```
+SELECT  * table_name;
+```
